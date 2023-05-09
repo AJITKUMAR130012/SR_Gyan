@@ -46,8 +46,8 @@ if mode == "train":
     # Dataset address
     train_gt_images_dir = "./data/ImageNet/SRGAN/train"
 
-    test_gt_images_dir = "./data/Set5/GTmod12"
-    test_lr_images_dir = "./data/Set5/LRbicx{upscale_factor}"
+    test_gt_images_dir = f"./data/Set5/GTmod12"
+    test_lr_images_dir = f"./data/Set5/LRbicx{upscale_factor}"
 
     gt_image_size = 96
     batch_size = 16
