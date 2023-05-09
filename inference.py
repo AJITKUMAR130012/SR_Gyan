@@ -61,7 +61,7 @@ def main(args):
     # Start the verification mode of the model.
     sr_model.eval()
 
-    lr_tensor = imgproc.preprocess_one_image(args.inputs_path, device)
+    lr_tensor = imgproc.preprocess_one_image(image_path=args.inputs_path,range_norm=True, half=False, device=device)
 
     # Use the model to generate super-resolved images
     with torch.no_grad():

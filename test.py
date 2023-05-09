@@ -72,8 +72,10 @@ def main() -> None:
         gt_image_path = os.path.join(srgan_config.gt_dir, file_names[index])
 
         print(f"Processing `{os.path.abspath(lr_image_path)}`...")
-        lr_tensor = imgproc.preprocess_one_image(lr_image_path, srgan_config.device)
-        gt_tensor = imgproc.preprocess_one_image(gt_image_path, srgan_config.device)
+        print(lr_image_path)
+        print(srgan_config.device)
+        lr_tensor = imgproc.preprocess_one_image(image_path=lr_image_path,range_norm=True, half=False, device=srgan_config.device)
+        gt_tensor = imgproc.preprocess_one_image(image_path=gt_image_path,range_norm=True, half=False, device=srgan_config.device)
 
         # Only reconstruct the Y channel image data.
         with torch.no_grad():
