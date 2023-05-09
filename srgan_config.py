@@ -38,16 +38,16 @@ num_rcb = 16
 # Test upscale factor
 upscale_factor = 4
 # Current configuration parameter method
-mode = "test"
+mode = "train"
 # Experiment name, easy to save weights and log files
 exp_name = "SRGAN_x4-DIV2K"
 
 if mode == "train":
     # Dataset address
-    train_gt_images_dir = f"./data/ImageNet/SRGAN/train"
+    train_gt_images_dir = "./data/ImageNet/SRGAN/train"
 
-    test_gt_images_dir = f"./data/Set5/GTmod12"
-    test_lr_images_dir = f"./data/Set5/LRbicx{upscale_factor}"
+    test_gt_images_dir = "./data/Set5/GTmod12"
+    test_lr_images_dir = "./data/Set5/LRbicx{upscale_factor}"
 
     gt_image_size = 96
     batch_size = 16
