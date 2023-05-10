@@ -82,11 +82,11 @@ if __name__ == "__main__":
                         default="srresnet_x4")
     parser.add_argument("--inputs_path",
                         type=str,
-                        default="./figure/comic_lr.png",
+                        default="Input/001.jpg",
                         help="Low-resolution image path.")
     parser.add_argument("--output_path",
                         type=str,
-                        default="./figure/comic_sr.png",
+                        default="Output/comic_sr1.png",
                         help="Super-resolution image path.")
     parser.add_argument("--model_weights_path",
                         type=str,
