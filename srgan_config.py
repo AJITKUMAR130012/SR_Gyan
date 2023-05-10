@@ -38,7 +38,7 @@ num_rcb = 16
 # Test upscale factor
 upscale_factor = 4
 # Current configuration parameter method
-mode = "test"
+mode = "train"
 # Experiment name, easy to save weights and log files
 exp_name = "SRGAN_x4-DIV2K"
 
