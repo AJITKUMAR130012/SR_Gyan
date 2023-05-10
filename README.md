@@ -39,10 +39,10 @@ Source of original paper results: [https://arxiv.org/pdf/1609.04802v5.pdf](https
 
 In the following table, the psnr value in `()` indicates the result of the project, and `-` indicates no test.
 
-| Tree images | Scale |       SRGAN        |
-|:-----------:|:-----:|:------------------:|
-| PSNR        |   4   |  29.40(**30.64**)  |
-| SSIM        |   4   |  0.8472(**0.8642**)|
+| Tree images | Scale |       SRGAN   |
+|:-----------:|:-----:|:-------------:|
+| PSNR        |   4   |  30.74        |
+| SSIM        |   4   |  0.8700       |
 
 
 ### Result On image
@@ -56,7 +56,7 @@ Input:
 
 Output: 
 
-<span align="center"><img width="240" height="360" src="Output/out1.jpg"/></span>
+<span align="center"><img width="240" height="360" src="Output/comic_sr1.png"/></span>
 
 
 ```
