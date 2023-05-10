@@ -52,11 +52,11 @@ python3 ./inference.py
 
 Input: 
 
-<span align="center"><img width="240" height="360" src="Input/ori1.jpg"/></span>
+<span align="center"><img width="240" height="360" src="Input/001.jpg"/></span>
 
 Output: 
 
-<span align="center"><img width="240" height="360" src="Output/ori1_blurred.jpg"/></span>
+<span align="center"><img width="240" height="360" src="Output/out1.jpg"/></span>
 
 
 ```
