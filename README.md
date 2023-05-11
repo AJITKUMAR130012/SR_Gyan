@@ -5,7 +5,7 @@
 This repository contains an op-for-op PyTorch reimplementation of [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802v5).
 
 
-Please refer to `README.md` in the `data` directory for the method of making a dataset.
+
 
 ## How Train and Test
 
